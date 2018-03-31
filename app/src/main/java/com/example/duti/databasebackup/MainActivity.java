@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
     private boolean sentToSettings = false;
 
     private EditText inputText;
-    private String packageName = "sponsorship.savethechildren.bangladesh";
-    private String databaseName = "scibdSponsorship";
+    private String packageName = "net.savethechildren.bangladesh.suchanamis";
+    private String databaseName = "suchana_db";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

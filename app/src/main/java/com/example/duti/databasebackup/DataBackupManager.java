@@ -71,7 +71,7 @@ public class DataBackupManager {
         }
 
         emailIntent.setType("text/plain");
-        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"suchana.mis.2017@gmail.com", "anindyadutidhar@gmail.com"});
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"suchana.mis.2017@gmail.com"});
         emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Suchana Database Backup");
         emailIntent.putExtra(Intent.EXTRA_TEXT, "User Name: " + message);
         emailIntent.putExtra(Intent.EXTRA_STREAM, uri);
